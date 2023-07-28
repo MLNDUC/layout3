@@ -1,0 +1,8 @@
+.section {
+  height: 150px;
+  background-color: rgb(0, 82, 175);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
