@@ -1,0 +1,10 @@
+.lower {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 188, 2);
+  height: 320px;
+  width: 150px;
+}

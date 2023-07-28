@@ -1,0 +1,7 @@
+.upperCenter {
+  background-color: rgb(2, 153, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}

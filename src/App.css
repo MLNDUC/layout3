@@ -10,7 +10,6 @@
   display: grid;
   grid-template-columns: auto auto auto;
   color: white;
-  gap: 20px;
   padding: 20px;
 }
 

@@ -1,11 +1,13 @@
 
 import './App.css'
-import { Aside } from './components/aside/Aside'
-import { Content } from './components/content/Content'
+import { Nav } from './components/nav/Nav'
+import { UpperLeft } from './components/upperLeft/UpperLeft'
+import { UpperCenter } from './components/upperCenter/UpperCenter'
+import { UpperRight } from './components/upperRight/UpperRight'
 import { Footer } from './components/footer/Footer'
 import { Header } from './components/header/Header'
-import { Navigation } from './components/navigation/Navigation'
-import { Section } from './components/section/Section'
+import { Middle } from './components/middle/Middle'
+import { Lower } from './components/lower/Lower'
 
 function App() {
 
@@ -14,11 +16,15 @@ function App() {
     <>
       <div className="app">
         <Header />
-        <Navigation />
-        <Aside />
+        <Nav />
         <div className="main">
-          <Content />
-          <Section />
+          <div className="upper">
+            <UpperLeft />
+            <UpperCenter />
+            <UpperRight />
+          </div>
+          <Middle />
+          <Lower />
         </div>
         <Footer />
       </div>
