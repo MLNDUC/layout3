@@ -1,7 +1,9 @@
 .upperLeft {
-  background-color: rgb(2, 153, 224);
+  background-color: rgb(136, 136, 136);
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 25%;
   height: 150px;
 }

@@ -6,11 +6,11 @@
 }
 
 .app {
-  background-color: rgb(198, 255, 255);
+  background-color: rgb(252, 255, 255);
   display: grid;
   grid-template-columns: auto auto auto;
-  color: white;
-  padding: 20px;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
 }
 
 .main {
@@ -18,6 +18,13 @@
   grid-column-end: 4;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 400px;
+  gap: 8px;
+  width: 600px;
+  padding: 2px 8px;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
